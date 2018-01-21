@@ -12,72 +12,76 @@ window._CCSettings = {
         assets: {
             "b2sRlxM3tPb6icT7/n0Yjs": [
                 "audio/jump.mp3",
-                "cc.AudioClip"
+                0
             ],
             "9d5V2Gc85CWrHeUzAOW6KO": [
                 "audio/score.mp3",
-                "cc.AudioClip"
+                0
             ],
             "5dqwns5xVBGKpMHtzVA6rP": [
                 "mikado_outline_shadow.png",
-                "cc.Texture2D"
+                1
             ],
             "20qUnBbsRGQYXQ4dBbxdNY": [
                 "textures/PurpleMonster.png",
-                "cc.Texture2D"
+                1
             ],
             "40Btq2valKc4vy2vxC1o9h": [
                 "textures/background.jpg",
-                "cc.Texture2D"
+                1
             ],
             "5eiJWcQC5CK61FUGuMyW4I": [
                 "textures/btn_play.png",
-                "cc.Texture2D"
+                1
             ],
             "beWRWSsLhAsI/yMP8Vby73": [
                 "textures/fx/fx_coinxiaosh_00.png",
-                "cc.Texture2D"
+                1
             ],
             "956PgPxnNB8Klfsghgc6uq": [
                 "textures/fx/fx_coinxiaosh_01.png",
-                "cc.Texture2D"
+                1
             ],
             "32iN4Zlz1IAIN/7jy5OVxC": [
                 "textures/fx/fx_coinxiaosh_02.png",
-                "cc.Texture2D"
+                1
             ],
             "f3BEu8O9hLfL3ip1K+4wFQ": [
                 "textures/fx/fx_coinxiaosh_03.png",
-                "cc.Texture2D"
+                1
             ],
             "f9yCu9mf5MIJ/uUxFVqpos": [
                 "textures/fx/fx_coinxiaosh_04.png",
-                "cc.Texture2D"
+                1
             ],
             "30M/BKxl5F35ZcA7B8Wr+w": [
                 "textures/fx/fx_coinxiaosh_05.png",
-                "cc.Texture2D"
+                1
             ],
             "4fZszXrtdNuJSQ1Hze0eLN": [
                 "textures/ground.png",
-                "cc.Texture2D"
+                1
             ],
             "f3lyEW/3FOoI6H+j1Mn5wp": [
                 "textures/star.png",
-                "cc.Texture2D"
+                1
             ]
         }
     },
+    assetTypes: [
+        "cc.AudioClip",
+        "cc.Texture2D"
+    ],
     launchScene: "db://assets/game.fire",
     scenes: [
         {
             url: "db://assets/game.fire",
-            uuid: "0bnHbgIFRO6qbZBA0KoDfw"
+            uuid: 0
         }
     ],
     packedAssets: {
         "023355f46": [
-            "0bnHbgIFRO6qbZBA0KoDfw",
+            0,
             "26C6pF1zdAmrndikEgBsAP",
             "3d82Y7O0pFb6kr3STxB5dj",
             "52Bynd8jBDgKM3gkk3g01F",
@@ -97,9 +101,11 @@ window._CCSettings = {
         ]
     },
     orientation: "landscape",
-    debug: true,
+    uuids: [
+        "0bnHbgIFRO6qbZBA0KoDfw"
+    ],
     "md5AssetsMap": {
-        "02/023355f46.json": "c7f09",
+        "02/023355f46.json": "0d02d",
         "assets/audio/jump.mp3": "74fd1",
         "assets/audio/score.mp3": "fe7c9",
         "assets/mikado_outline_shadow.png": "c1880",
